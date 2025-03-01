@@ -3,7 +3,7 @@ import shutil
 
 def copy_static_to_public(nested_directory = ""):
     base_static_dir = os.path.join(os.getcwd(), "static")
-    base_public_dir = os.path.join(os.getcwd(), "public")
+    base_public_dir = os.path.join(os.getcwd(), "docs")
 
     current_nested_static_path = os.path.join(base_static_dir, nested_directory)
     current_nested_public_path = os.path.join(base_public_dir, nested_directory)
